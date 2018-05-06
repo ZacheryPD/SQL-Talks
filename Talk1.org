@@ -7,15 +7,15 @@
 *** CRUD
 **** Create
 ***** Schema ([[https://www.w3schools.com/sql/sql_create_table.asp][source]])
-     #+BEGIN_EXAMPLE
-     CREATE TABLE Persons (
-          PersonID int,
-          LastName varchar(255),
-          FirstName varchar(255),
-          Address varchar(255),
-          City varchar(255) 
-      );      
-      #+END_EXAMPLE
+      #+BEGIN_EXAMPLE
+      CREATE TABLE Persons (
+           PersonID int,
+           LastName varchar(255),
+           FirstName varchar(255),
+           Address varchar(255),
+           City varchar(255) 
+       );      
+       #+END_EXAMPLE
 ***** Data
 **** Read
      #+BEGIN_EXAMPLE
@@ -29,10 +29,20 @@
       AND Condition2
       OR Condition3
      #+END_EXAMPLE
-**** Update
+**** Update ([[https://www.w3schools.com/sql/sql_update.asp][source]])
      #+BEGIN_EXAMPLE
-     UPDATE TableName SET)
+      UPDATE table_name
+      SET column1 = value1, column2 = value2, ...
+      WHERE condition;     
      #+END_EXAMPLE
 **** Delete
+     #+BEGIN_EXAMPLE
+      DELETE FROM table_name
+      WHERE condition;     
+     #+END_EXAMPLE
+*** What is a function?
+**** Function syntax
+***** MethodName([parameters...])
+**** What are some useful functions?
 * How do I do basic reporting?
 * What is the format of this thing?
