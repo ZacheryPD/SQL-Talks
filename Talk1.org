@@ -1,0 +1,38 @@
+* What is a relational database?
+** What is a table?
+*** What is a type?
+*** What is a constraint?
+*** What is a key?
+** What is a query language?
+*** CRUD
+**** Create
+***** Schema ([[https://www.w3schools.com/sql/sql_create_table.asp][source]])
+     #+BEGIN_EXAMPLE
+     CREATE TABLE Persons (
+          PersonID int,
+          LastName varchar(255),
+          FirstName varchar(255),
+          Address varchar(255),
+          City varchar(255) 
+      );      
+      #+END_EXAMPLE
+***** Data
+**** Read
+     #+BEGIN_EXAMPLE
+     SELECT 
+      Column1,
+      Column2
+     FROM
+      Table
+     WHERE
+      Condition
+      AND Condition2
+      OR Condition3
+     #+END_EXAMPLE
+**** Update
+     #+BEGIN_EXAMPLE
+     UPDATE TableName SET)
+     #+END_EXAMPLE
+**** Delete
+* How do I do basic reporting?
+* What is the format of this thing?
