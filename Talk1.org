@@ -48,4 +48,3 @@
 ***** MethodName([parameters...])
 **** What are some useful functions?
 * How do I do basic reporting?
-* What is the format of this thing?
