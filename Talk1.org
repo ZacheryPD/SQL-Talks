@@ -17,6 +17,9 @@
        );      
        #+END_EXAMPLE
 ***** Data
+      #+BEGIN_EXAMPLE
+      INSERT INTO Persons(LastName, FirstName) VALUES('Jim', 'Jimson');      
+       #+END_EXAMPLE
 **** Read
      #+BEGIN_EXAMPLE
      SELECT 
