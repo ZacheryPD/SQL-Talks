@@ -1,10 +1,32 @@
 * What is a relational database?
 ** What is a table?
+*** A table is just a spreadsheet
+   |     ID | FirstName | LastName |    PhoneNumber |
+   |      1 | John      | Doe      | 1(123)567-8910 |
+   |      2 | Jane      | Dough    | 2(345)678-9101 |
+   |      3 | James     | Martin   | 3(456)789-1011 |
+   |      4 | Mary      | Creative | 4(567)891-0111 |
+   |--------+-----------+----------+----------------|
+   | Number | String    | String   |         String |
 *** What is a type?
+    - A specifier for "what can go here"
+    - Integer, string, date
 *** What is a constraint?
+**** Don't worry too much about this.
+**** It's a way to say "this must be that"
 *** What is a key?
+**** Primary Key
+     - What uniquely identifies this table?
+     - In most cases, this is the ID column
+**** Foreign Key
+     - What is this data related to?
+     - This is how we link tables together
+**** Composite Keys
+     - You can also have a single key made up of multiple columns.
+     - Don't worry about that right now.
 ** What is a query language?
 *** CRUD
+    I'm going to go over this, but you'll only really ever use the middle two.
 **** Create
 ***** Schema ([[https://www.w3schools.com/sql/sql_create_table.asp][source]])
       #+BEGIN_EXAMPLE
@@ -47,4 +69,12 @@
 **** Function syntax
 ***** MethodName([parameters...])
 **** What are some useful functions?
+     - COUNT
+     - MIN/MAX
+     - Average
+     - WITH
+** Locking... a special aside 
+***** PUT "WITH(NOLOCK)" AFTER THE TABLES ON PRETTY MUCH EVERYTHING WHEN ON PRODUCTION
+***** TLDR: Hard Locks
+***** TLDR: Soft Locks
 * How do I do basic reporting?
