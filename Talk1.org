@@ -6,7 +6,6 @@
    |      2 | Jane      | Dough    | 2(345)678-9101 |
    |      3 | James     | Martin   | 3(456)789-1011 |
    |      4 | Mary      | Creative | 4(567)891-0111 |
-   |--------+-----------+----------+----------------|
    | Number | String    | String   |         String |
 *** What is a type?
     - A specifier for "what can go here"
