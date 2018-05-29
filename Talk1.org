@@ -70,11 +70,20 @@
 ***** MethodName([parameters...])
 **** What are some useful functions?
      - COUNT
+       
      - MIN/MAX
      - Average
-     - WITH
-** Locking... a special aside 
+     - WITH (more on this in a sec)
+* Locking... (a special aside)
+  [[https://www.sqlshack.com/locking-sql-server/][Source]]
 ***** PUT "WITH(NOLOCK)" AFTER THE TABLES ON PRETTY MUCH EVERYTHING WHEN ON PRODUCTION
-***** TLDR: Hard Locks
-***** TLDR: Soft Locks
+***** TLDR: Exclusive locks
+      - Granted when an application needs exclusive rights to a specific "table"
+      - Prevents anyone else from reading or writing to that table
+      - Bad citizenship!  
+***** TLDR: Shared locks
+      - Granted when someone needs to write to a "table" but doesn't need to
+        prevent anyone else from reading.
+      - Some variant of this is what most requests will use.
+      - Good citizen!  
 * How do I do basic reporting?
