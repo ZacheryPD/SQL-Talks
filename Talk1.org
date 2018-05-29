@@ -12,8 +12,8 @@
     - A specifier for "what can go here"
     - Integer, string, date
 *** What is a constraint?
-**** Don't worry too much about this.
-**** It's a way to say "this must be that"
+    - Don't worry too much about this.
+    - It's a way to say "this must be that"
 *** What is a key?
 **** Primary Key
      - What uniquely identifies this table?
