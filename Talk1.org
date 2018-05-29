@@ -70,7 +70,14 @@
 ***** MethodName([parameters...])
 **** What are some useful functions?
      - COUNT
-       
+       #+BEGIN_EXAMPLE
+       select 
+         count(ID)
+       from
+         Users
+       where
+         Name like '%fred%'
+       #+END_EXAMPLE
      - MIN/MAX
      - Average
      - WITH (more on this in a sec)
