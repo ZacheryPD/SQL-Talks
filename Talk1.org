@@ -78,15 +78,15 @@
        where
          Name like '%fred%'
        #+END_EXAMPLE
-     - MIN/MAX
+     - MIN/MAX/AVG
        #+BEGIN_EXAMPLE
-       select 
-         min(Balance) as MinBalance,
-         max(Balance) as MaxBalance
-       from
+       SELECT 
+         MIN(Balance) AS MinBalance,
+         MAX(Balance) AS MaxBalance,
+         AVG(Balance) AS AvgBalance
+       FROM
          Loans
        #+END_EXAMPLE
-     - Average
      - WITH (more on this in a sec)
 * Locking... (a special aside)
   [[https://www.sqlshack.com/locking-sql-server/][Source]]
